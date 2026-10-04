@@ -43,7 +43,7 @@ class Stack:
       if self._top==-1:
         self._top=None
       return temp
-    def is_empty(self):
+  def is_empty(self):
       if self._top is None:
         return True
       return False
